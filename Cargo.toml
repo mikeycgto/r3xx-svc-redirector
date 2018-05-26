@@ -1,0 +1,11 @@
+[package]
+authors = ["Michael J Coyne <mjc@michaeljcoyne.me>"]
+name = "url_shortener"
+version = "0.1.0"
+[dependencies]
+docopt = "1.0.0"
+fred = { git = "https://github.com/mikeycgto/fred.rs", branch = "llen-lpush-lpop" }
+futures = "0.1.21"
+hyper = "0.11.27"
+serde_derive = "1.0.58"
+tokio-core = "0.1.17"
